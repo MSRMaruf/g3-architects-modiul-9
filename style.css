@@ -6,7 +6,7 @@
 
 header{
     background: rgba(255, 144, 14, 0.10);
-    /* border: 50px 240px; */
+    
 }
 nav{
     display: flex;
@@ -100,4 +100,36 @@ color: #000;
     nav {
         flex-direction: column;
     }
+}
+
+/* teams style */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.teams-container{
+    display: flex;
+    align-items: center;
+    
+
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-text-prg{
+    color:  #727272;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 }
